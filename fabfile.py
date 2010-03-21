@@ -181,8 +181,8 @@ def apache():
 
 
 def restart_servers():
-	sudo('/etc/init.d/nginx restart')
-	sudo('/etc/init.d/apache2 restart')
+	sudo('/etc/init.d/nginx restart', pty=True)
+	sudo('/etc/init.d/apache2 restart', pty=True)
 
 
 # utilities

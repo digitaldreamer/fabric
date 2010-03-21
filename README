@@ -31,7 +31,7 @@ visudo
 touch .ssh/authorized_keys
 ssh-keygen -t rsa -C "<server>"
 
-9) initialization is complete. Set the <env> variables in the GLOBALS section of this file, and run fabric to set up the environment
+9) initialization is complete. Set the <env> variables in the GLOBALS section in local_settings.py, and run fabric to set up the environment
 fab server
 
 
