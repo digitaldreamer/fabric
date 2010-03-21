@@ -1,26 +1,26 @@
-yolk==0.4.1
+yolk
 Django==1.1.1
-Jinja2==2.3.1
-Markdown==2.0.3
-PyYAML==3.09
-Pygments==1.3
-Sphinx==0.6.5
+Jinja2
+Markdown
+PyYAML
+Pygments
+Sphinx
 http://www.satchmoproject.com/snapshots/trml2pdf-1.2.tar.gz
-Werkzeug==0.6
-django-app-plugins==0.1.1
--e git://github.com/robhudson/django-debug-toolbar.git@d05dcbb4aa93b1ce9d097ed8d537f06eb2491f5e#egg=django_debug_toolbar-0.8.3-py2.6-dev
--e git://github.com/django-extensions/django-extensions.git@d60a1b84a819f95abd0045653a82d395ff90eaa1#egg=django_extensions-0.4.2_pre-py2.6-dev
--e hg+http://bitbucket.org/ubernostrum/django-registration/@c5f776ca03d14aab768ff68bcd86d78774dd78fe#egg=django_registration-tip
--e hg+http://bitbucket.org/bkroeze/django-signals-ahoy/@4025183881b72a54c2ab0d9d5025d8f6872348df#egg=django_signals_ahoy-tip
--e hg+https://bkroeze@bitbucket.org/bkroeze/django-threaded-multihost/@c5704151e79da646b4657af0c9620eb1a1acc167#egg=django_threaded_multihost-tip
-docutils==0.6
-pycrypto==2.0.1
--e hg+https://sorl-thumbnail.googlecode.com/hg/@caf69b5206329d89282b4b8246a72e5aa77cb578#egg=sorl_thumbnail-tip
-wsgiref==0.1.2
+Werkzeug
+django-app-plugins
+-e git://github.com/robhudson/django-debug-toolbar.git#egg=django_debug_toolbar-0.8.3-py2.6-dev
+-e git://github.com/django-extensions/django-extensions.git#egg=django_extensions-0.4.2_pre-py2.6-dev
+-e hg+http://bitbucket.org/ubernostrum/django-registration/#egg=django_registration-tip
+-e hg+http://bitbucket.org/bkroeze/django-signals-ahoy/#egg=django_signals_ahoy-tip
+-e hg+https://bkroeze@bitbucket.org/bkroeze/django-threaded-multihost/#egg=django_threaded_multihost-tip
+docutils
+pycrypto
+-e hg+https://sorl-thumbnail.googlecode.com/hg/#egg=sorl_thumbnail-tip
+wsgiref
 -e hg+http://bitbucket.org/chris1610/satchmo/#egg=satchmo
 python-memcached
 django-cms==2.0.2
-django-haystack==1.0.1-final
+django-haystack
 Whoosh
-South==0.6.2
+South
 Fabric
