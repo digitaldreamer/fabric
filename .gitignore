@@ -1,0 +1,12 @@
+*.psd
+*.fla
+*.swp
+*.pyc
+*.tgz
+*.tar.gz
+*~
+search/site_index/
+media/uploads/
+local_settings.py
+initial_data.json
+digitaldreamer.*
