@@ -12,10 +12,11 @@ env.user_home = '/root'
 DOMAIN = None
 PROJECT = None
 
-DJANGO_PATH = '/var/www/django'
-HTML_PATH = '/var/www/html'
-ENVS_PATH = '/var/www/envs'
-BACKUPS_PATH = '/var/www/backups'
+ROOT_PATH = '/var/www'
+DJANGO_PATH = ROOT_PATH + '/django'
+HTML_PATH = ROOT_PATH + '/html'
+ENVS_PATH = ROOT_PATH + '/envs'
+BACKUPS_PATH = ROOT_PATH + '/backups'
 
 GITHUB_PROJECT = PROJECT
 GITHUB_USER = None
@@ -78,6 +79,9 @@ def deploy():
 	html()
 	virtualenv()
 	cron()
+
+	with cd(ROOT_PATH):
+		sudo('chmod -Rf 775 .')
 
 
 def django():
