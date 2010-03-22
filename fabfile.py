@@ -137,6 +137,7 @@ def cron():
 
 	with cd(BACKUPS_PATH):
 		run('mkdir %s' % PROJECT)
+		run('mkdir %s/databases' % PROJECT)
 
 
 def github():
