@@ -75,3 +75,6 @@ link any cron scripts
 
 3) restart servers
 fab restart_servers
+
+4) if you need xapian
+ln -s /envs/project/src/xapian-haystack/xapian_backend.py /var/www/envs/btoys/lib/python2.6/site-packages/haystack/backends

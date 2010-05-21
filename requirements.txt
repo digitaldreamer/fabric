@@ -13,14 +13,22 @@ django-app-plugins
 -e hg+http://bitbucket.org/ubernostrum/django-registration/#egg=django_registration-tip
 -e hg+http://bitbucket.org/bkroeze/django-signals-ahoy/#egg=django_signals_ahoy-tip
 -e hg+https://bkroeze@bitbucket.org/bkroeze/django-threaded-multihost/#egg=django_threaded_multihost-tip
+-e svn+http://django-tagging.googlecode.com/svn/trunk/#egg=django-tagging
 docutils
 pycrypto
 -e hg+https://sorl-thumbnail.googlecode.com/hg/#egg=sorl_thumbnail-tip
 wsgiref
 -e hg+http://bitbucket.org/chris1610/satchmo/#egg=satchmo
+MySQL-python
 python-memcached
 django-cms==2.0.2
 django-haystack
+xapian-haystack
 Whoosh
 South
 Fabric
+recaptcha-client
+simplejson
+http://nltk.googlecode.com/files/nltk-2.0b8.tar.gz
+-e git+http://github.com/facebook/python-sdk.git#egg=FacebookSDK
+-e git+git://github.com/notanumber/xapian-haystack.git#egg=xapian-haystack

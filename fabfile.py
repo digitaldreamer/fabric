@@ -58,7 +58,11 @@ def server():
     _apt_get('python-mysqldb')
     _apt_get('sqlite3')
     _apt_get('mercurial')
+    _apt_get('subversion')
     _apt_get('memcached')
+    _apt_get('apt-xapian-index')
+    _apt_get('xapian-omega')
+    _apt_get('python-xapian')
 
     # global python environment
     _easy_install('virtualenv')
